@@ -1,0 +1,218 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+ul{font-size:16px;}
+
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  padding-bottom: 130px
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.navbar-nav > li > a{padding-top: 20px;
+padding-bottom: 20px;}
+
+
+.brand-img img{  float: left;
+margin-right: 15px;
+margin-top: -6px;
+width: 50px;}
+.brand-img h2{  float: right;
+font-family: wide latin;
+font-size: 20px;
+margin: 0;}
+.btn-glass {
+    background-color: glass;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-glass:hover {
+    background-color: glass;
+    border-color: #fff;
+    color: #6F73FF;
+}
+
+.italic {font-style: italic;
+      color: #777777;
+      font-size: 16px;
+      padding-bottom: 20px;}
+
+.marketing {
+  padding-bottom: 20px;
+}
+
+.feature {
+  background-color: #F1F1F1;
+  padding-bottom: 20px;
+}
+
+.portfolio {
+  background-color: #272822;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff
+}
+
+.portfolio p {
+  font-size: 19px
+}
+.img_bottom {
+  margin-bottom: 7px;
+}
+
+.blog {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:#338E93;
+}
+
+
+.footer {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.welcome img {
+  width: 30%;
+}
+.team img {
+  padding-top: 75px;
+  width: 300px;
+}
+
+.mapbox{
+height:350px;  border: 1px solid #FCDF5B ! important;
+box-shadow:3px 2px 3px 2px gray;
+margin-bottom:25px;
+clear:both;}
+
+.box-pro{width:25%;
+height:345px;
+border:1px solid black;
+position:relative;
+}
+
+.container-padd {height:60px;}
+
+.user{width:98%;
+height:830px;
+margin-top:;
+margin-left:15px;
+margin-right:10px;
+background-image:url(img/world-map-black-1.png);
+clear:both;}
+
+.hedng{text-align:center;
+font-weight:bold;
+margin-top:50px; }
+
+
+
+.user-h{text-align:center;}
+
+
+.blog{
+width:98%;
+margin:auto;
+margin-bottom:20px;
+box-shadow: 2px 2px 2px 5px #338E93;}
+
+#flot{float:right;margin-right:70px;}
+
+
+.mapbox::after{clear:both}
+
+.box-container{
+	padding:40px;
+	position: relative;
+}
+
+
+.box-container >.box{
+	border: 2px solid #FCDF5B;box-shadow:2px 2px 2px 5px gray;
+	height:200px;
+    border-radius: 4px;
+}
+
+
+
+.saikt{text-align:center; margin-top:70px; font-weight:bold; font-size:50px;}
+
+.hide{display:none}
+.out{
+	margin-left:-2000px
+	}
+	
+	
+	
+	.weather{
+		min-height:200px;
+		
+		}
+		
+		
+	
+.weatherdata{
+		min-height:150px;
+		margin:0px auto;
+		text-align:center;
+		}
+		
+		
+		
+	.box button{
+		background:transparent ! important;
+		border:0px !important;
+		
+		
+		}
+.dangerious{
+width:60%;
+    min-height:150px;
+    margin:0px auto;
+}
+
+
+.navbar-inverse{
+    background-color: #f2f2f2 ! important;
+    background-image: linear-gradient(to bottom, #f2f2f2, #f2f2f2) ! important;
+    border: 1px solid #bfbfbf ! important;
+    box-shadow: inset 0 1px 0 white, inset 0 -1px 0 #d9d9d9, inset 0 0 0 1px #f2f2f2, 0 2px 4px rgba(0, 0, 0, 0.2) ! important;
+    color: #8c8c8c ! important;
+
+}
+ul>li>a:hover{color:#FCDF5B ! important}

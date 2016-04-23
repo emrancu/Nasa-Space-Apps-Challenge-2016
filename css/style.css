@@ -1,0 +1,28 @@
+#maparea{
+height:300px;	
+border:1px solid orange	
+	}
+#google_canvas {
+	height:300px;
+	clear:both;
+}
+#google_canvas h1 {
+	font-size:16px;
+}
+#google_canvas h2 {
+	font-size:14px;
+	font-weight:300;
+}
+.usertype{margin-top:20px}
+.usertype div{
+margin-left: auto;
+margin-right: auto;
+float: none;	
+	}
+.usertype > div > button{
+	width:100%;
+	height:15px
+	
+	}
+
+	
